@@ -1,0 +1,87 @@
+.attribution {
+     font-size: 11px; text-align: center;
+     color: aqua;
+     }
+.attribution a {
+     color: hsl(0, 0%, 100%);
+     }
+     body{
+        background-color: hsl(233, 47%, 7%);
+        align-items: center;
+     }
+     .container{
+        background-color: hsl(244, 38%, 16%);
+        height: 350px;
+        width: 450px;
+        margin-top: 15vh;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+     }
+     .tag{
+        color:aliceblue;
+        font-size: 30px;
+        font-weight: 800;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+     }
+.para{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.stats{
+    color: white;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.comp{
+   position: relative;
+   right: 50px;
+}
+.qu{
+   position: relative;
+   left: 50px;
+}
+img{
+   height: 350px;
+   width: 450px;
+   position: relative;
+   display: flex;
+   border-top-right-radius:12px ;
+   border-bottom-right-radius: 12px;
+}
+.image{
+   /* Well i know that the color is not same as shown in the preview*/
+   filter: sepia(0.3) saturate(60) hue-rotate(277deg) brightness(0.7) opacity(0.8);
+   height: fit-content;
+   width: max-content;
+   margin-top: 15vh;
+}
+.wth{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+@media(max-width:765px){
+.wth{
+   flex-direction: column;
+}
+.image{
+   margin-top: 0px;
+}
+img{
+   border-top-right-radius:0px ;
+   border-bottom-right-radius: 0px;
+}
+.container{
+   border-top-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+}
+}
